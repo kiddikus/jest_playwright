@@ -1,0 +1,13 @@
+{
+    "compilerOption":{
+        "target": "es6",
+        "strict": true,
+        "module": "commonjs",
+        "sourceMap": true,  
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true
+    },"include": [
+        "*.ts"
+      ]
+}

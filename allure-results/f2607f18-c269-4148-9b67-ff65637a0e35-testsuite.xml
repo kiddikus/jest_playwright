@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700841628902' stop='1700841641289'>
+    <name>POM tests</name>
+    <title>POM tests</title>
+    <test-cases>
+        <test-case start='1700841633072' status='passed' stop='1700841640611'>
+            <name>Login with POM, possitive</name>
+            <title>Login with POM, possitive</title>
+            <labels>
+                <label name='severity' value='Critical'/>
+                <label name='story' value='first'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1700841633074' status='site is opened' stop='1700841633078'>
+                    <name>open site</name>
+                    <title>open site</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1700841633078' status='login is done' stop='1700841633603'>
+                    <name>login</name>
+                    <title>login</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1700841633603' status='cred is done' stop='1700841634086'>
+                    <name>enter cred</name>
+                    <title>enter cred</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1700841634086' status='log out' stop='1700841640610'>
+                    <name>loging out</name>
+                    <title>loging out</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>allure test</description>
+        </test-case>
+        <test-case start='1700841640611' status='passed' stop='1700841641288'>
+            <name>another</name>
+            <title>another</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

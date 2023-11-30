@@ -1,0 +1,41 @@
+ "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "testTimeout": 120000
+  } 
+
+  "types": [
+            "@types/jest",
+            "jest-playwright-preset",
+            "expect-playwright",
+        ]
+
+   module.exports = {
+    verbose: true,
+    preset: 'jest-playwright-preset',
+    transform: {
+        '^.+\\.ts$': 'ts-jest'
+      }
+}     
+
+module.exports = {
+    browsers: ["chromium"],
+    exitOnPageError: false,
+    launchoptions: {
+        headless: false
+    }
+}
+
+package.json
+ "scripts": {
+    "test": "jest -i"  последовательный запуск тестов
+  },
